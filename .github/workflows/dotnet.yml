@@ -22,5 +22,6 @@ jobs:
       working-directory: src/MinimalWebApi
     - name: Build
       run: dotnet build --no-restore
+      working-directory: src/MinimalWebApi
     - name: Test
       run: dotnet test --no-build --verbosity normal
