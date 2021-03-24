@@ -32,7 +32,6 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         name: DropOne
-        path: ${{env.working-directory}}
       
       
       
