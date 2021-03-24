@@ -12,7 +12,6 @@ jobs:
     runs-on: windows-latest  
     env:
         working-directory: src/MinimalWebApi
-        artifact-output-path: src/MinimalWebApi/artifact.txt
 
     steps:
     - uses: actions/checkout@v2
@@ -33,10 +32,7 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         name: DropOne
-        path: ${{artifact-output-path}}
-      
-      
-      
+        path: minimalWebApi.text
       
       
       
