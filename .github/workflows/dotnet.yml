@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         name: DropOne
-        path: minimalWebApi.text
+        path: ${{env.working-directory}}
       
       
       
